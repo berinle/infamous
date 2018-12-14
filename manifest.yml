@@ -2,3 +2,5 @@ applications:
 -  name: infamous
    buildpack: java_buildpack_offline
    path: build/libs/infamous-0.0.1-SNAPSHOT.jar
+   env:
+     eureka.client.serviceUrl.defaultZone: http://localhost:8761
